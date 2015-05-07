@@ -170,3 +170,4 @@ if __name__ == "__main__":
     summary = 'to do'
     mailutil.sendemailto('gancj@ucweb.com', attachs, summary)
     mtc.teardown()
+    print 'test git'
