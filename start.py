@@ -7,7 +7,9 @@
 # Author        : gancj@ucweb.com
 ###########################################################################
 
-import monkeyclient
-import util
+from monkeyclient import *
+import util, os, sys
+import mailutil
 
-if __name__ == "__main__":
+if  __name__ == "__main__":
+    main()
